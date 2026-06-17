@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cyuzuzo Media</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#0b0b0b;
+color:white;
+}
+
+.header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px;
+background:#151515;
+position:sticky;
+top:0;
+z-index:100;
+}
+
+.logo{
+font-size:24px;
+font-weight:bold;
+color:#a855f7;
+}
+
+.search{
+width:45%;
+padding:10px;
+border:none;
+border-radius:20px;
+outline:none;
+}
+
+.right{
+display:flex;
+align-items:center;
+gap:15px;
+}
+
+.bell{
+font-size:24px;
+cursor:pointer;
+}
+
+.profile{
+width:50px;
+height:50px;
+border-radius:50%;
+border:2px solid #a855f7;
+}
+
+.menu{
+display:flex;
+justify-content:space-around;
+flex-wrap:wrap;
+background:#1a1a1a;
+padding:12px;
+}
+
+.menu a{
+color:white;
+text-decoration:none;
+padding:8px;
+font-size:14px;
+}
+
+.banner img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.title{
+text-align:center;
+padding:20px;
+font-size:30px;
+font-weight:bold;
+}
+
+.card{
+background:#1a1a1a;
+margin:15px;
+border-radius:15px;
+overflow:hidden;
+}
+
+.card img{
+width:100%;
+display:block;
+}
+
+.content{
+padding:15px;
+}
+
+.content h3{
+margin-bottom:5px;
+}
+
+.views{
+color:#999;
+}
+
+.actions{
+display:flex;
+justify-content:space-around;
+padding:12px;
+border-top:1px solid #333;
+}
+
+.actions span{
+cursor:pointer;
+}
+
+.upload{
+position:fixed;
+bottom:20px;
+right:20px;
+width:70px;
+height:70px;
+border:none;
+border-radius:50%;
+background:#a855f7;
+color:white;
+font-size:38px;
+cursor:pointer;
+box-shadow:0 0 15px #a855f7;
+}
+
+.footer{
+text-align:center;
+padding:20px;
+color:#888;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+
+<div class="logo">
+CYUZUZO MEDIA
+</div>
+
+<input class="search" type="text" placeholder="Search videos...">
+
+<div class="right">
+<div class="bell">🔔</div>
+
+<img class="profile"
+src="https://api.dicebear.com/9.x/personas/svg?seed=Cyuzuzo">
+</div>
+
+</div>
+
+<div class="menu">
+<a href="index.html">🏠 Home</a>
+<a href="upload.html">🎬 Upload</a>
+<a href="profile.html">👤 Profile</a>
+<a href="login.html">🔑 Login</a>
+<a href="register.html">📝 Register</a>
+</div>
+
+<div class="banner">
+<img src="https://picsum.photos/900/400">
+</div>
+
+<div class="title">
+🔥 Trending Videos
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/600/300?1">
+<div class="content">
+<h3>AI News Rwanda</h3>
+<div class="views">12K Views</div>
+</div>
+
+<div class="actions">
+<span>❤️ Like</span>
+<span>💬 Comment</span>
+<span>↗️ Share</span>
+</div>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/600/300?2">
+<div class="content">
+<h3>Technology Africa</h3>
+<div class="views">8K Views</div>
+</div>
+
+<div class="actions">
+<span>❤️ Like</span>
+<span>💬 Comment</span>
+<span>↗️ Share</span>
+</div>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/600/300?3">
+<div class="content">
+<h3>Latest Music Video</h3>
+<div class="views">25K Views</div>
+</div>
+
+<div class="actions">
+<span>❤️ Like</span>
+<span>💬 Comment</span>
+<span>↗️ Share</span>
+</div>
+</div>
+
+<a href="upload.html">
+<button class="upload">+</button>
+</a>
+
+<div class="footer">
+© 2026 Cyuzuzo Media • All Rights Reserved
+</div>
+
+</body>
+</html>
